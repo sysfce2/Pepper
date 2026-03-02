@@ -5,6 +5,7 @@
 * This software is available under the Apache-2.0 License.       *
 *****************************************************************/
 module;
+#include <SDKDDKVer.h>
 #include <afxdlgs.h>
 #include "HexCtrl.h"
 #include <format>

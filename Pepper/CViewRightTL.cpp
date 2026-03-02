@@ -549,7 +549,7 @@ void CViewRightTL::OnListGetColor(NMHDR* pNMHDR)
 		return;
 	}
 
-	if (iSubItem == 4) { //Section name.
+	if (uListID == ut::IDC_LIST_DATADIRECTORIES && iSubItem == 4) { //Section name.
 		const auto& vecDataDirs = m_pMainDoc->GetDataDirs();
 		const auto& dataDir = vecDataDirs->at(iItem);
 		const auto pDescr = &dataDir.stDataDir;
